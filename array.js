@@ -1,3 +1,22 @@
-const arrayNumero = [10,20,30]
-arrayNumero.push(60)
-console.log(arrayNumero)
+const web = {
+    nombre: 'bluuweb',
+    link:{
+        enlace: 'www.augusto.com'
+    },
+    redesociales:{
+        youtube:{
+            enlace: 'pornhub.com',
+            nombre: 'que paso aqui pues?'
+        },
+        facebook:{
+            enlace: 'pornhub.com',
+            nombre: 'que paso aqui pues?'
+        },
+        instagram:{
+            enlace: 'pornhub.com',
+            nombre: 'que paso aqui pues?'
+        }
+    }
+}
+
+console.log(web.redesociales.youtube.enlace)
